@@ -1,5 +1,5 @@
 # Project Title
-Reservoir-Characterization
+Reservoir-Characterization in Oil and Gas Applications
 ## Project Description
 This project is focused on applying Machine learning techniques towards understanding the subsurface properties and behavior of oil and gas reservoirs thereby enhancing reservior characterization.
 ## Installation Instructions
