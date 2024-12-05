@@ -1,13 +1,4 @@
-Here’s a template for a professional and detailed README file for your GitHub repository on *Reservoir Characterization*:
-
----
-
 # Reservoir Characterization
-
-![Project Banner](DALL·E 2024-12-04 16.28.26 - A detailed illustration of an oil and gas reservoir characterization, showing underground rock layers with oil, gas, and water zones clearly labeled. )  
-*A comprehensive approach to analyzing oil and gas reservoirs using data-driven methods and visualization tools.*
-
----
 
 ## 📚 Table of Contents
 1. [Project Overview](#project-overview)
