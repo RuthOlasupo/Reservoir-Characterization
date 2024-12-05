@@ -4,7 +4,7 @@ Here’s a template for a professional and detailed README file for your GitHub 
 
 # Reservoir Characterization
 
-![Project Banner](https://via.placeholder.com/800x200?text=Reservoir+Characterization)  
+![Project Banner](DALL·E 2024-12-04 16.28.26 - A detailed illustration of an oil and gas reservoir characterization, showing underground rock layers with oil, gas, and water zones clearly labeled. )  
 *A comprehensive approach to analyzing oil and gas reservoirs using data-driven methods and visualization tools.*
 
 ---
@@ -24,20 +24,19 @@ Here’s a template for a professional and detailed README file for your GitHub 
 
 ## 🔍 Project Overview
 
-This project focuses on **reservoir characterization** to better understand the subsurface geology, fluid distribution, and production potential of oil and gas reservoirs. It combines **data-driven analysis, machine learning models, and visualization tools** to provide insights into the reservoir's performance.
+This project focuses on **reservoir characterization** to better understand the subsurface geology, and classification of facies through geological facies analysis. It combines **data-driven analysis, machine learning models, and visualization tools** to provide insights into the reservoir's facies.
 
 ### Objectives:
-- Analyze subsurface data to identify key geological and fluid properties.
-- Implement machine learning workflows for predicting reservoir performance.
-- Visualize reservoir properties using tools like Tableau and Python-based libraries.
+- Analyze subsurface data to identify key geological properties.
+- Implement machine learning workflows for predicting facies type within a reservior
+- Visualize reservoir properties using Python-based libraries.
 
----
+
 
 ## ✨ Features
 
 - **Exploratory Data Analysis (EDA)**: Includes statistical summaries and visualizations of reservoir data.
-- **Machine Learning Models**: Implements predictive models to estimate production potential.
-- **Visualization Tools**: Integration with Tableau for interactive dashboards.
+- **Machine Learning Models**: Implements predictive models to classify facies.
 - **Comprehensive Documentation**: Well-documented code and instructions for reproducibility.
 
 ---
@@ -49,17 +48,18 @@ This project focuses on **reservoir characterization** to better understand the 
   - `pandas`, `numpy` for data processing
   - `matplotlib`, `seaborn` for data visualization
   - `scikit-learn` for machine learning
-  - `streamlit` for web-based EDA applications
-- **Visualization Tools**: Tableau
+    
+- **Visualization Tools**: Jupyter Notebook
+  
 - **Version Control**: Git/GitHub
 
 ---
 
-## 🛠 Installation
 
 ### Prerequisites:
 - Python 3.8 or higher
-- pip package manager
+- Google Colaboratory
+
 
 ### Steps:
 1. Clone the repository:
@@ -67,41 +67,36 @@ This project focuses on **reservoir characterization** to better understand the 
    git clone https://github.com/RuthOlasupo/Reservoir-Characterization.git
    cd Reservoir-Characterization
    ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the exploratory data analysis (EDA) app:
-   ```bash
-   streamlit run eda_app.py
-   ```
 
 ---
 
 ## 🚀 Usage
 
-1. **Run the EDA App**: Launch the Streamlit app to explore and visualize reservoir data interactively.
-2. **Train Machine Learning Models**: Use the provided scripts to train models on custom reservoir data.
-3. **Visualize Results**: Access pre-built Tableau dashboards for an intuitive understanding of reservoir properties.
+1. **Train Machine Learning Models**: Use the provided scripts to train models on custom reservoir data.
+2. **Visualize Results**: View results on the notebook
 
 ---
 
 ## 📊 Data Description
+The data set comes from a University of Kansas class exercise on the Hugoton and Panoma gas fields.
+The data set consists of seven features 
+- (five wireline log measurements two indicator variables- last 2
+- a facies label at half-foot depth intervals.(Shale ( Sandstone , Limestone etc)
+In machine learning terminology, the set of measurements at each depth interval comprises a feature vector, each of which is associated with a class (the facies type).
+- Gamma ray (GR)
+- Resistivity (ILD_log10)
+- Photoelectric effect (PE)
+- Neutron-density porosity difference (DeltaPHI)
+- Average neutron-density porosity (PHIND)
+- Nonmarine/marine indicator (NM_M)
+- Relative position (RELPOS)
 
 ### Sample Dataset Includes:
-- **Geological Features**: Porosity, permeability, and lithology.
-- **Fluid Data**: Oil, gas, and water saturation levels.
-- **Production Data**: Historical production rates and cumulative production.
-- **Location Information**: Well coordinates and depth.
+- **Geological Features**: Facies, Formation, Resistivity, Gamma Ray...
+- **Location Information**: Well depth and Relative position.
 
 ---
 
-## 🌐 Visualization
-
-Interactive dashboards and charts created using Tableau:  
-[View Tableau Dashboard](https://public.tableau.com/views/EDA-Demo/NoOutliersDashboard)
-
----
 
 ## 🤝 Contributing
 
@@ -123,11 +118,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## ✉️ Contact
 
-For questions or suggestions, please contact [Ruth Olasupo](mailto:your-email@example.com).
+For questions or suggestions, please contact [Ruth Olasupo](mailto:ruth.olasupo5@gmail.com).
 
 ---
-
-Feel free to adjust this README as per your specific project details! Let me know if you need help with any particular section.
 
 
 ## References
